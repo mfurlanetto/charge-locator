@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ricarica A4</title>
+  <meta name="description" content="Colonnine di ricarica nelle aree di servizio dell'autostrada A4 Torino–Trieste, con distanza dalla tua posizione e navigazione.">
+  <meta name="theme-color" content="#0b6e4f">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Ricarica A4">
+  <link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="/icons/icon.svg" alt="" width="28" height="28">
+      <div>
+        <h1>Ricarica A4</h1>
+        <p class="sub">Aree di servizio Torino–Trieste</p>
+      </div>
+    </div>
+    <button id="locate" class="btn btn-ghost" type="button" aria-live="polite">📍 <span id="locate-label">Rileva posizione</span></button>
+  </header>
+
+  <section class="filters" aria-label="Filtri">
+    <div class="seg" role="radiogroup" aria-label="Direzione di marcia">
+      <button type="button" role="radio" data-dir="all" aria-checked="true">Tutte</button>
+      <button type="button" role="radio" data-dir="trieste" aria-checked="false">→ Trieste</button>
+      <button type="button" role="radio" data-dir="torino" aria-checked="false">← Torino</button>
+    </div>
+    <label class="field">Potenza min.
+      <select id="f-power">
+        <option value="0">Qualsiasi</option>
+        <option value="50">≥ 50 kW</option>
+        <option value="100">≥ 100 kW</option>
+        <option value="150">≥ 150 kW</option>
+        <option value="250">≥ 250 kW</option>
+      </select>
+    </label>
+    <label class="field">Connettore
+      <select id="f-conn">
+        <option value="">Tutti</option>
+        <option value="ccs">CCS (Combo 2)</option>
+        <option value="chademo">CHAdeMO</option>
+        <option value="type 2">Tipo 2</option>
+        <option value="tesla">Tesla / NACS</option>
+      </select>
+    </label>
+    <label class="check"><input type="checkbox" id="f-op"> Solo dichiarate in servizio</label>
+  </section>
+
+  <p id="heading-hint" class="hint" hidden></p>
+
+  <main class="layout">
+    <div id="map" class="map" role="region" aria-label="Mappa"></div>
+    <section class="list-wrap" aria-label="Elenco aree">
+      <div id="status" class="status" role="status">Caricamento dati…</div>
+      <ol id="list" class="list"></ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Attenzione:</strong> lo stato mostrato è quello <em>dichiarato</em> in Open Charge Map e, salvo dove indicato "automatico", <strong>non è in tempo reale</strong>. Verifica la disponibilità nell'app dell'operatore prima di deviare.</p>
+    <p>Le distanze sono in linea d'aria. Un'area "→ Trieste" è raggiungibile solo viaggiando verso Trieste (e viceversa).</p>
+    <p id="sources" class="sources"></p>
+  </footer>
+
+  <template id="tpl-area">
+    <li class="card">
+      <div class="card-head">
+        <div>
+          <h2 class="area-name"></h2>
+          <p class="meta"></p>
+        </div>
+        <span class="dist"></span>
+      </div>
+      <p class="summary"></p>
+      <ul class="chips"></ul>
+      <details class="details">
+        <summary>Dettaglio colonnine</summary>
+        <ul class="stations"></ul>
+      </details>
+      <div class="nav">
+        <a class="btn" data-nav="google" target="_blank" rel="noopener">Google Maps</a>
+        <a class="btn" data-nav="waze" target="_blank" rel="noopener">Waze</a>
+        <a class="btn" data-nav="apple" target="_blank" rel="noopener">Apple Mappe</a>
+      </div>
+    </li>
+  </template>
+
+  <script src="/vendor/leaflet/leaflet.js"></script>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

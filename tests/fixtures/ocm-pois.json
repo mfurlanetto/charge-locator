@@ -1,0 +1,673 @@
+[
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2022-10-23T14:22:00Z",
+  "ID": 72396,
+  "UUID": "37F0A14F-79CB-45DA-B189-1A5B0BD99B98",
+  "DataProviderID": 1,
+  "OperatorID": 80,
+  "UsageTypeID": 1,
+  "AddressInfo": {
+   "ID": 72742,
+   "Title": "ADS  Limenella Nord",
+   "AddressLine1": "Autostrada A4 Brescia-Padova, KM 162",
+   "Town": "Limena ",
+   "StateOrProvince": "PD",
+   "Postcode": "35135",
+   "CountryID": 112,
+   "Latitude": 45.449403019631,
+   "Longitude": 11.8447522881686,
+   "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-q8-fast-ads-limenella-nord-padova-pd-a4-km-355-t16094.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 103721,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 99,
+    "CurrentTypeID": 30,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 2,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2022-10-23T14:22:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2016-10-11T14:31:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2025-12-21T14:38:00Z",
+  "ID": 290033,
+  "UUID": "65E9AB6D-509F-40A0-A863-563C897E2ED8",
+  "DataProviderID": 1,
+  "OperatorID": 1,
+  "UsageTypeID": 1,
+  "AddressInfo": {
+   "ID": 290420,
+   "Title": "Ricarica AdS Limenella Ovest",
+   "AddressLine1": "A4 km 167 (verso Torino)",
+   "Town": "Padova",
+   "StateOrProvince": "PD",
+   "CountryID": 112,
+   "Latitude": 45.449096,
+   "Longitude": 11.845797,
+   "RelatedURL": "https://www.forumelettrico.it/forum/hpc-fera-ricarica-gisignano-a4-vicenza-t35992.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 512306,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 150,
+    "CurrentTypeID": 30,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 1,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2025-12-21T14:38:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2024-01-18T20:08:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2025-11-11T22:54:00Z",
+  "ID": 305804,
+  "UUID": "D141AE17-622D-49B3-B5D6-4DF1C5230C15",
+  "DataProviderID": 1,
+  "OperatorID": 3908,
+  "UsageTypeID": 1,
+  "AddressInfo": {
+   "ID": 306193,
+   "Title": "IPlanet Ads IP Limenella Sud",
+   "AddressLine1": "Autostrada Serenissima",
+   "Town": "Padova",
+   "StateOrProvince": "Veneto",
+   "Postcode": "35135",
+   "CountryID": 112,
+   "Latitude": 45.44766285270805,
+   "Longitude": 11.84539774738812,
+   "RelatedURL": "http://iplanet.eu",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 578713,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 300,
+    "CurrentTypeID": 30,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 2,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2025-11-11T22:54:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2024-11-01T15:42:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2024-11-09T15:27:00Z",
+  "ID": 290032,
+  "UUID": "F0C6FDF3-45FF-4A9B-A343-97E97036FEB0",
+  "DataProviderID": 1,
+  "OperatorID": 1,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 290419,
+   "Title": "RICARICA.BIZ ads Limenella Sud",
+   "AddressLine1": "Autostrada Serenissima",
+   "StateOrProvince": "Veneto",
+   "Postcode": "35135",
+   "CountryID": 112,
+   "Latitude": 45.44801186314493,
+   "Longitude": 11.84432359721734,
+   "RelatedURL": "https://nextcharge.app/map?lang=it&station=DE0100B1GP3C000015",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 512305,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 160,
+    "CurrentTypeID": 30,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 2,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2024-11-09T15:27:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2024-01-18T20:07:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2021-02-25T09:28:00Z",
+  "ID": 172981,
+  "UUID": "1A900363-457D-4E39-A2D4-5B300CF775A0",
+  "DataProviderID": 1,
+  "OperatorID": 23,
+  "UsageTypeID": 1,
+  "AddressInfo": {
+   "ID": 173340,
+   "Title": "Tesla AdS Adda Nord",
+   "AddressLine1": "A35 Km 39",
+   "Town": "Caravaggio",
+   "StateOrProvince": "BG",
+   "CountryID": 112,
+   "Latitude": 45.511552,
+   "Longitude": 9.634865,
+   "RelatedURL": "https://www.forumelettrico.it/forum/tesla-suc-ads-adda-nord-a35-brebemi-caravaggio-t15532.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 264631,
+    "ConnectionTypeID": 27,
+    "LevelID": 2,
+    "PowerKW": 250,
+    "Quantity": 4
+   }
+  ],
+  "NumberOfPoints": 4,
+  "StatusTypeID": 30,
+  "DateLastStatusUpdate": "2021-02-25T09:28:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2021-02-25T09:27:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2024-05-19T14:22:00Z",
+  "ID": 172623,
+  "UUID": "CB0D923F-BCBD-45A4-8D06-363F89C7AB9C",
+  "DataProviderID": 1,
+  "OperatorID": 23,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 172982,
+   "Title": "Tesla AdS Adda Sud",
+   "AddressLine1": "A35 km 39",
+   "Town": "Caravaggio",
+   "StateOrProvince": "BG",
+   "Postcode": "24043",
+   "CountryID": 112,
+   "Latitude": 45.51074130716145,
+   "Longitude": 9.636160296765638,
+   "RelatedURL": "https://www.tesla.com/it_IT/findus/location/supercharger/addasudsupercharger",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 263951,
+    "ConnectionTypeID": 27,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 250,
+    "CurrentTypeID": 30,
+    "Quantity": 4
+   },
+   {
+    "ID": 270445,
+    "ConnectionTypeID": 1036,
+    "Reference": "",
+    "StatusTypeID": 50,
+    "LevelID": 2,
+    "Amps": 32,
+    "Voltage": 416,
+    "PowerKW": 22,
+    "CurrentTypeID": 20,
+    "Quantity": 1
+   }
+  ],
+  "NumberOfPoints": 4,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2024-05-19T14:22:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2021-02-11T06:13:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2020-02-11T08:27:00Z",
+  "ID": 148831,
+  "UUID": "EF2FDD99-5288-46A5-95F1-E2D0DD8AF526",
+  "DataProviderID": 1,
+  "OperatorID": 80,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 149183,
+   "Title": "Conad Chiari | ENELX",
+   "AddressLine1": "Via Vecchia per Castelcovati, 2",
+   "Town": "Chiari",
+   "StateOrProvince": "BS",
+   "Postcode": "25032",
+   "CountryID": 112,
+   "Latitude": 45.52583682552276,
+   "Longitude": 9.938619009607237,
+   "RelatedURL": "https://www.enelx.com/it/it/emobility",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 206671,
+    "ConnectionTypeID": 25,
+    "StatusTypeID": 50,
+    "LevelID": 2,
+    "Amps": 32,
+    "Voltage": 400,
+    "PowerKW": 22,
+    "CurrentTypeID": 20,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": "\tLUN-VEN 08:00 -20:00 / DOM 08:00 - 19:30",
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2020-02-11T08:27:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2020-02-11T08:27:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2025-07-12T06:12:00Z",
+  "ID": 193789,
+  "UUID": "343D316E-020A-4276-BE8B-1DA67552312F",
+  "DataProviderID": 1,
+  "OperatorID": 3503,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 194148,
+   "Title": "Free To X AdS Valtrompia Sud",
+   "AddressLine1": "A4",
+   "Town": "Roncadelle",
+   "StateOrProvince": "Lombardy",
+   "Postcode": "25132",
+   "CountryID": 112,
+   "Latitude": 45.53274209325099,
+   "Longitude": 10.148740277641878,
+   "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-valtrompia-sud-roncadelle-bs-a4-km-309-verso-venezia-t28078.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 315489,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 300,
+    "CurrentTypeID": 30,
+    "Quantity": 6
+   },
+   {
+    "ID": 317202,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 64,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   },
+   {
+    "ID": 317203,
+    "ConnectionTypeID": 2,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 64,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   },
+   {
+    "ID": 317204,
+    "ConnectionTypeID": 25,
+    "StatusTypeID": 50,
+    "LevelID": 2,
+    "Amps": 32,
+    "Voltage": 400,
+    "PowerKW": 22,
+    "CurrentTypeID": 20,
+    "Quantity": 1
+   }
+  ],
+  "NumberOfPoints": 4,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2025-07-12T06:12:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2022-07-03T06:35:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2025-05-30T15:00:00Z",
+  "ID": 193790,
+  "UUID": "9AEDC2F7-1E6D-4A62-BA96-FEEE3465FD8C",
+  "DataProviderID": 1,
+  "OperatorID": 3503,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 194149,
+   "Title": "Free To X AdS Valtrompia Nord",
+   "AddressLine1": "A4 km 309 (verso Torino)",
+   "Town": "Roncadelle",
+   "StateOrProvince": "Lombardy",
+   "Postcode": "25132",
+   "CountryID": 112,
+   "Latitude": 45.53271185848655,
+   "Longitude": 10.150283867539883,
+   "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-valtrompia-nord-roncadelle-bs-a4-km-309-verso-torino-t26154.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 315490,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 300,
+    "CurrentTypeID": 30,
+    "Quantity": 8
+   },
+   {
+    "ID": 317199,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 64,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   },
+   {
+    "ID": 317200,
+    "ConnectionTypeID": 2,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 64,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   },
+   {
+    "ID": 317201,
+    "ConnectionTypeID": 25,
+    "StatusTypeID": 50,
+    "LevelID": 2,
+    "Amps": 32,
+    "Voltage": 400,
+    "PowerKW": 22,
+    "CurrentTypeID": 20,
+    "Quantity": 1
+   }
+  ],
+  "NumberOfPoints": 5,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2025-05-30T15:00:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2022-07-03T06:36:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2024-10-19T09:44:00Z",
+  "ID": 305525,
+  "UUID": "2C7AD3A7-F0BB-4712-8954-F98C81948B1B",
+  "DataProviderID": 1,
+  "OperatorID": 3657,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 305914,
+   "Title": "ELECTRIEASE ADS Montealto Ovest",
+   "AddressLine1": "Autostrada Serenissima",
+   "Town": "Desenzano del Garda",
+   "StateOrProvince": "Lombardia",
+   "Postcode": "25150",
+   "CountryID": 112,
+   "Latitude": 45.44844399999997,
+   "Longitude": 10.529443000000583,
+   "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-277-IT*BPA*PDE0240B1GNCC000490",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 578066,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 100,
+    "CurrentTypeID": 30,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 2,
+  "GeneralComments": "https://www.electriease.com/",
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2024-10-19T09:44:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2024-10-19T09:44:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2025-11-10T17:04:00Z",
+  "ID": 305991,
+  "UUID": "E73B0151-53E7-46C2-8A13-20D4031F520B",
+  "DataProviderID": 1,
+  "OperatorID": 3908,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 306380,
+   "Title": "IPlanet ads IP Monte Alto Nord",
+   "AddressLine1": "Autostrada Serenissima",
+   "Town": "Desenzano del Garda",
+   "StateOrProvince": "Lombardia",
+   "Postcode": "25150",
+   "CountryID": 112,
+   "Latitude": 45.448759,
+   "Longitude": 10.528772,
+   "RelatedURL": "https://iplanet.eu",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 579630,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 300,
+    "CurrentTypeID": 30,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 2,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2025-11-10T17:04:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2024-11-09T15:22:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": true,
+  "DateLastVerified": "2026-05-16T07:23:00Z",
+  "ID": 305990,
+  "UUID": "5C9F5735-C402-497B-8EDF-167459C193F4",
+  "DataProviderID": 1,
+  "OperatorID": 3908,
+  "UsageTypeID": 1,
+  "AddressInfo": {
+   "ID": 306379,
+   "Title": "IPlanet AdS Monte Alto Est",
+   "AddressLine1": "A4 km 246 (verso Trieste)",
+   "Town": "Desenzano del Garda",
+   "StateOrProvince": "BS",
+   "CountryID": 112,
+   "Latitude": 45.447822,
+   "Longitude": 10.527824,
+   "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-iplanet-ultra-fast-ads-monte-alto-est-desenzano-del-garda-bs-a4-km-246-verso-trieste-t46029.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 579629,
+    "ConnectionTypeID": 33,
+    "Reference": "iplanet.eu",
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 100,
+    "CurrentTypeID": 30,
+    "Quantity": 2
+   }
+  ],
+  "NumberOfPoints": 2,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2026-05-16T07:23:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2024-11-09T15:21:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2025-06-24T17:12:00Z",
+  "ID": 192807,
+  "UUID": "692F324D-437A-4EA5-9A39-61D22B71ECA0",
+  "DataProviderID": 1,
+  "OperatorID": 3503,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 193166,
+   "Title": "Free To X AdS Brianza Sud",
+   "AddressLine1": "A4 km 148 (verso Trieste)",
+   "Town": "Caponago",
+   "StateOrProvince": "Lombardy",
+   "Postcode": "20867",
+   "CountryID": 112,
+   "Latitude": 45.574082,
+   "Longitude": 9.393359,
+   "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-ads-brianza-sud-agrate-mb-t24285.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 313426,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 300,
+    "CurrentTypeID": 30,
+    "Quantity": 8
+   },
+   {
+    "ID": 317174,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 63,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   },
+   {
+    "ID": 317175,
+    "ConnectionTypeID": 2,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 63,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   },
+   {
+    "ID": 317176,
+    "ConnectionTypeID": 1036,
+    "StatusTypeID": 50,
+    "LevelID": 2,
+    "Amps": 32,
+    "Voltage": 400,
+    "PowerKW": 22,
+    "CurrentTypeID": 20,
+    "Quantity": 1
+   }
+  ],
+  "NumberOfPoints": 5,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2025-06-24T17:12:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2022-04-30T08:19:00Z",
+  "SubmissionStatusTypeID": 200
+ },
+ {
+  "IsRecentlyVerified": false,
+  "DateLastVerified": "2025-11-30T07:28:00Z",
+  "ID": 192490,
+  "UUID": "9687DB07-6B42-435F-A341-60AEBA1B8744",
+  "DataProviderID": 1,
+  "OperatorID": 3503,
+  "UsageTypeID": 4,
+  "AddressInfo": {
+   "ID": 192849,
+   "Title": "Free To X AdS Brianza Nord",
+   "AddressLine1": "A4 km 374 (verso Torino)",
+   "Town": "Agrate Brianza",
+   "StateOrProvince": "Lombardy",
+   "Postcode": "20864",
+   "CountryID": 112,
+   "Latitude": 45.57591729421742,
+   "Longitude": 9.392743118842418,
+   "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-freetox-ads-brianza-nord-agrate-mb-t22706.html",
+   "DistanceUnit": 0
+  },
+  "Connections": [
+   {
+    "ID": 312764,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 300,
+    "CurrentTypeID": 30,
+    "Quantity": 8
+   },
+   {
+    "ID": 313795,
+    "ConnectionTypeID": 1036,
+    "StatusTypeID": 50,
+    "LevelID": 2,
+    "PowerKW": 22,
+    "CurrentTypeID": 20,
+    "Quantity": 1
+   },
+   {
+    "ID": 313796,
+    "ConnectionTypeID": 2,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 62,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   },
+   {
+    "ID": 313797,
+    "ConnectionTypeID": 33,
+    "StatusTypeID": 50,
+    "LevelID": 3,
+    "PowerKW": 62,
+    "CurrentTypeID": 30,
+    "Quantity": 1
+   }
+  ],
+  "NumberOfPoints": 5,
+  "StatusTypeID": 50,
+  "DateLastStatusUpdate": "2025-11-30T07:28:00Z",
+  "DataQualityLevel": 1,
+  "DateCreated": "2022-04-07T15:16:00Z",
+  "SubmissionStatusTypeID": 200
+ }
+]

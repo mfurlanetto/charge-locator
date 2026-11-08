@@ -1,0 +1,323 @@
+{
+  "generatedAt": "2026-11-07T23:59:35.856Z",
+  "source": "ocm",
+  "license": "CC BY 4.0 – Open Charge Map contributors",
+  "bbox": {
+    "south": 44.95,
+    "west": 7.6,
+    "north": 45.95,
+    "east": 13.85
+  },
+  "count": 21,
+  "areas": [
+    {
+      "id": "sanrocco-sud",
+      "name": "San Rocco Sud",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": 26,
+      "lat": 45.241799,
+      "lon": 7.974078,
+      "source": "ocm-text",
+      "sourceIds": [
+        274035
+      ],
+      "aliases": []
+    },
+    {
+      "id": "villarboit-nord",
+      "name": "Villarboit Nord",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 458,
+      "lat": 45.457336,
+      "lon": 8.345511,
+      "source": "ocm-text",
+      "sourceIds": [
+        190017
+      ],
+      "aliases": []
+    },
+    {
+      "id": "rho-sud",
+      "name": "Rho Sud",
+      "direction": "trieste",
+      "directionInferred": true,
+      "km": 111,
+      "lat": 45.509314,
+      "lon": 9.039542,
+      "source": "ocm-text",
+      "sourceIds": [
+        113494
+      ],
+      "aliases": []
+    },
+    {
+      "id": "novate-nord",
+      "name": "Novate Nord",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 396,
+      "lat": 45.530289,
+      "lon": 9.149434,
+      "source": "ocm-text",
+      "sourceIds": [
+        297083
+      ],
+      "aliases": []
+    },
+    {
+      "id": "brianza-nord",
+      "name": "Brianza Nord",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 374,
+      "lat": 45.575917,
+      "lon": 9.392743,
+      "source": "ocm-text",
+      "sourceIds": [
+        192490
+      ],
+      "aliases": []
+    },
+    {
+      "id": "brianza-sud",
+      "name": "Brianza Sud",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": 148,
+      "lat": 45.574082,
+      "lon": 9.393359,
+      "source": "ocm-text",
+      "sourceIds": [
+        192807
+      ],
+      "aliases": []
+    },
+    {
+      "id": "brembo-nord",
+      "name": "Brembo Nord",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 356,
+      "lat": 45.632871,
+      "lon": 9.599413,
+      "source": "ocm-text",
+      "sourceIds": [
+        289958
+      ],
+      "aliases": []
+    },
+    {
+      "id": "valtrompia-sud",
+      "name": "Valtrompia Sud",
+      "direction": "trieste",
+      "directionInferred": true,
+      "km": null,
+      "lat": 45.532742,
+      "lon": 10.14874,
+      "source": "ocm-text",
+      "sourceIds": [
+        193789
+      ],
+      "aliases": []
+    },
+    {
+      "id": "valtrompia-nord",
+      "name": "Valtrompia Nord",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 309,
+      "lat": 45.532712,
+      "lon": 10.150284,
+      "source": "ocm-text",
+      "sourceIds": [
+        193790
+      ],
+      "aliases": []
+    },
+    {
+      "id": "montealto-est",
+      "name": "Monte Alto Est",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": 246,
+      "lat": 45.447822,
+      "lon": 10.527824,
+      "source": "ocm-text",
+      "sourceIds": [
+        305990
+      ],
+      "aliases": []
+    },
+    {
+      "id": "montealto-ovest",
+      "name": "Montealto Ovest",
+      "direction": "torino",
+      "directionInferred": true,
+      "km": null,
+      "lat": 45.448602,
+      "lon": 10.529108,
+      "source": "ocm-text",
+      "sourceIds": [
+        305525,
+        305991
+      ],
+      "aliases": [
+        "Monte Alto Nord"
+      ],
+      "aliasIds": [
+        "montealto-nord"
+      ]
+    },
+    {
+      "id": "montebaldo-est",
+      "name": "Monte Baldo Est",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": 273,
+      "lat": 45.413681,
+      "lon": 10.87104,
+      "source": "ocm-text",
+      "sourceIds": [
+        259337
+      ],
+      "aliases": []
+    },
+    {
+      "id": "scaligera-nord",
+      "name": "Scaligera Nord",
+      "direction": "torino",
+      "directionInferred": true,
+      "km": 176.2,
+      "lat": 45.411557,
+      "lon": 11.232044,
+      "source": "ocm-text",
+      "sourceIds": [
+        189169
+      ],
+      "aliases": []
+    },
+    {
+      "id": "scaligera-sud",
+      "name": "Scaligera Sud",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": 301,
+      "lat": 45.410397,
+      "lon": 11.234368,
+      "source": "ocm-text",
+      "sourceIds": [
+        462481,
+        499380
+      ],
+      "aliases": []
+    },
+    {
+      "id": "tesina-sud",
+      "name": "Tesina Sud",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": null,
+      "lat": 45.504342,
+      "lon": 11.624777,
+      "source": "ocm-text",
+      "sourceIds": [
+        129808,
+        308712
+      ],
+      "aliases": []
+    },
+    {
+      "id": "limenella-sud",
+      "name": "Limenella Sud",
+      "direction": "trieste",
+      "directionInferred": true,
+      "km": null,
+      "lat": 45.447837,
+      "lon": 11.844861,
+      "source": "ocm-text",
+      "sourceIds": [
+        290032,
+        305804
+      ],
+      "aliases": []
+    },
+    {
+      "id": "limenella-ovest",
+      "name": "Limenella Ovest",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 167,
+      "lat": 45.449249,
+      "lon": 11.845274,
+      "source": "ocm-text",
+      "sourceIds": [
+        72396,
+        290033
+      ],
+      "aliases": [
+        "Limenella Nord"
+      ],
+      "aliasIds": [
+        "limenella-nord"
+      ]
+    },
+    {
+      "id": "fratta-nord",
+      "name": "Fratta Nord",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 66,
+      "lat": 45.804721,
+      "lon": 12.880585,
+      "source": "ocm-text",
+      "sourceIds": [
+        191069
+      ],
+      "aliases": []
+    },
+    {
+      "id": "fratta-sud",
+      "name": "Fratta Sud",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": null,
+      "lat": 45.80443,
+      "lon": 12.88749,
+      "source": "ocm-text",
+      "sourceIds": [
+        193052
+      ],
+      "aliases": []
+    },
+    {
+      "id": "gonars-nord",
+      "name": "Gonars Nord",
+      "direction": "torino",
+      "directionInferred": false,
+      "km": 35,
+      "lat": 45.882209,
+      "lon": 13.257769,
+      "source": "ocm-text",
+      "sourceIds": [
+        162399
+      ],
+      "aliases": []
+    },
+    {
+      "id": "gonars-sud",
+      "name": "Gonars Sud",
+      "direction": "trieste",
+      "directionInferred": false,
+      "km": 488,
+      "lat": 45.881679,
+      "lon": 13.260111,
+      "source": "ocm-text",
+      "sourceIds": [
+        273216
+      ],
+      "aliases": []
+    }
+  ]
+}

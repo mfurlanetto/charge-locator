@@ -1,0 +1,130 @@
+{
+ "StatusTypes": [
+  {
+   "ID": 0,
+   "Title": "Unknown",
+   "IsOperational": null
+  },
+  {
+   "ID": 10,
+   "Title": "Currently Available (Automated Status)",
+   "IsOperational": true
+  },
+  {
+   "ID": 20,
+   "Title": "Currently In Use (Automated Status)",
+   "IsOperational": true
+  },
+  {
+   "ID": 30,
+   "Title": "Temporarily Unavailable",
+   "IsOperational": true
+  },
+  {
+   "ID": 50,
+   "Title": "Operational",
+   "IsOperational": true
+  },
+  {
+   "ID": 75,
+   "Title": "Partly Operational (Mixed)",
+   "IsOperational": true
+  },
+  {
+   "ID": 100,
+   "Title": "Not Operational",
+   "IsOperational": false
+  },
+  {
+   "ID": 150,
+   "Title": "Planned For Future Date",
+   "IsOperational": false
+  },
+  {
+   "ID": 200,
+   "Title": "Removed (Decommissioned)",
+   "IsOperational": false
+  },
+  {
+   "ID": 210,
+   "Title": "Removed (Duplicate Listing)",
+   "IsOperational": false
+  }
+ ],
+ "CurrentTypes": [
+  {
+   "ID": 10,
+   "Title": "AC (Single-Phase)"
+  },
+  {
+   "ID": 20,
+   "Title": "AC (Three-Phase)"
+  },
+  {
+   "ID": 30,
+   "Title": "DC"
+  }
+ ],
+ "ConnectionTypes": [
+  {
+   "ID": 33,
+   "Title": "CCS (Type 2)"
+  },
+  {
+   "ID": 2,
+   "Title": "CHAdeMO"
+  },
+  {
+   "ID": 27,
+   "Title": "NACS / Tesla Supercharger"
+  },
+  {
+   "ID": 25,
+   "Title": "Type 2 (Socket Only)"
+  },
+  {
+   "ID": 1036,
+   "Title": "Type 2 (Tethered Connector) "
+  }
+ ],
+ "Operators": [
+  {
+   "ID": 1,
+   "Title": "(Unknown Operator)",
+   "WebsiteURL": null
+  },
+  {
+   "ID": 80,
+   "Title": "Enel X",
+   "WebsiteURL": "https://eneldrive.enelx.com/"
+  },
+  {
+   "ID": 3503,
+   "Title": "Free To X",
+   "WebsiteURL": "https://www.freeto-x.it/"
+  },
+  {
+   "ID": 3908,
+   "Title": "iPlanet (IT)",
+   "WebsiteURL": "https://iplanet.eu"
+  },
+  {
+   "ID": 3657,
+   "Title": "NEXTCHARGE",
+   "WebsiteURL": "https://nextcharge.app/"
+  },
+  {
+   "ID": 23,
+   "Title": "Tesla (Tesla-only charging)",
+   "WebsiteURL": "http://www.teslamotors.com"
+  }
+ ],
+ "DataProviders": [
+  {
+   "ID": 1,
+   "Title": "Open Charge Map Contributors",
+   "License": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+   "WebsiteURL": "http://openchargemap.org"
+  }
+ ]
+}

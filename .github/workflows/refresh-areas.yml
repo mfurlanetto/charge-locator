@@ -1,0 +1,32 @@
+# Rigenera data/a4-areas.json (prima OpenStreetMap/Overpass, in mancanza Open Charge Map)
+# e apre una pull request se l'elenco è cambiato. Richiede il secret OCM_API_KEY.
+name: refresh-areas
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Fonte: auto | osm | ocm'
+        default: auto
+  schedule:
+    - cron: '17 4 1 * *'
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/build-areas.mjs --source=${{ github.event.inputs.source || 'auto' }}
+        env:
+          OCM_API_KEY: ${{ secrets.OCM_API_KEY }}
+      - run: npm test
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/refresh-areas
+          commit-message: 'Aggiorna elenco aree di servizio A4'
+          title: 'Aggiorna elenco aree di servizio A4'
+          body: 'Generato automaticamente da scripts/build-areas.mjs. Verificare le differenze prima di unire.'

@@ -6,8 +6,11 @@ import { haversineM, centroid } from './geo.js';
 // Bounding box del corridoio A4 Torino–Trieste (lat min, lon min, lat max, lon max).
 export const A4_BBOX = { south: 44.95, west: 7.6, north: 45.95, east: 13.85 };
 
-// Raggio entro cui una colonnina è considerata "dentro" l'area di servizio.
+// Raggio entro cui una colonnina che NOMINA l'area (es. "AdS Brianza Nord") vi viene associata.
 export const AREA_RADIUS_M = 350;
+// Raggio, più stretto, per colonnine che non nominano l'area: evita di includere
+// parcheggi o centri commerciali adiacenti all'autostrada ma fuori dall'area di servizio.
+export const UNNAMED_RADIUS_M = 120;
 
 const A4_RE = /\bA\s?-?4\b(?![\d/])|serenissima|torino\s?-?\s?(trieste|milano)|venezia\s?-?\s?trieste|brescia\s?-?\s?padova/i;
 const ADS_RE = /\ba\.?d\.?s\.?\b|aree? (di )?servizio|autogrill|service area|stazione di servizio/i;
@@ -157,11 +160,12 @@ export function mergeDuplicateAreas(areas, maxM = 300) {
 }
 
 /**
- * Associa ogni POI all'area più vicina entro AREA_RADIUS_M.
- * Se il POI cita per nome un'area esistente entro il raggio, quel nome ha la precedenza
- * (le due carreggiate distano spesso meno di 200 m).
+ * Associa i POI alle aree.
+ * - Se il testo del POI nomina un'area (anche tramite alias) entro AREA_RADIUS_M, va a quell'area
+ *   (le due carreggiate distano spesso meno di 200 m: il nome prevale sulla vicinanza).
+ * - Altrimenti va all'area più vicina solo se entro UNNAMED_RADIUS_M.
  */
-export function assignPoisToAreas(pois, areas, radiusM = AREA_RADIUS_M) {
+export function assignPoisToAreas(pois, areas, radiusM = AREA_RADIUS_M, unnamedRadiusM = UNNAMED_RADIUS_M) {
   const byArea = new Map(areas.map((a) => [a.id, []]));
   for (const p of pois) {
     const a = p.AddressInfo;
@@ -172,11 +176,13 @@ export function assignPoisToAreas(pois, areas, radiusM = AREA_RADIUS_M) {
       .sort((x, y) => x.d - y.d);
     if (!near.length) continue;
     const parsed = parseAreaName(poiText(p));
-    let chosen = near[0];
+    let chosen = null;
     if (parsed) {
       const want = `${nameKey(parsed.name)}-${parsed.suffix.toLowerCase()}`;
-      chosen = near.find((x) => x.ar.id === want || x.ar.aliasIds?.includes(want)) || chosen;
+      chosen = near.find((x) => x.ar.id === want || x.ar.aliasIds?.includes(want)) || null;
     }
+    if (!chosen && near[0].d <= unnamedRadiusM) chosen = near[0];
+    if (!chosen) continue;
     byArea.get(chosen.ar.id).push({ poi: p, distanceM: Math.round(chosen.d) });
   }
   return byArea;

@@ -90,6 +90,15 @@ test('assignPoisToAreas: carreggiate a 120 m assegnate per nome', () => {
   assert.ok(!all.includes(148831) && !all.includes(172981));
 });
 
+test('assignPoisToAreas: esclude POI senza nome area oltre 120 m (es. centro commerciale)', () => {
+  const areas = [{ id: 'valtrompia-nord', lat: 45.532712, lon: 10.150284 }];
+  const mall = { ID: 84341, AddressInfo: { Title: 'Centro Commerciale Rondinelle Ingresso Est', Latitude: 45.5344688, Longitude: 10.1517481 } };
+  const close = { ID: 1, AddressInfo: { Title: 'Ionity', Latitude: 45.5330, Longitude: 10.1505 } };
+  const named = { ID: 2, AddressInfo: { Title: 'Free To X AdS Valtrompia Nord', Latitude: 45.5345, Longitude: 10.1520 } };
+  const ids = assignPoisToAreas([mall, close, named], areas).get('valtrompia-nord').map((x) => x.poi.ID);
+  assert.deepEqual(ids.sort(), [1, 2]);
+});
+
 test('buildPayload: struttura, avviso e riepilogo', () => {
   const areasDoc = { generatedAt: '2026-11-07T00:00:00Z', source: 'ocm', areas: buildAreasFromOcm(pois) };
   const p = buildPayload({ areasDoc, pois, refRaw: ref, now: new Date('2026-11-08T00:00:00Z') });

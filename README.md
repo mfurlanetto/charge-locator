@@ -41,7 +41,7 @@ scripts/             generazione elenco aree e server di sviluppo locale
 tests/               test (node:test) su dati OCM reali in tests/fixtures
 ```
 
-Una colonnina è attribuita a un'area se si trova entro 350 m dal suo centro. Le due carreggiate distano spesso meno di 200 m, quindi se il testo OCM nomina l'area (es. "Valtrompia Nord") quel nome prevale sulla pura vicinanza.
+Una colonnina è attribuita a un'area se il suo testo OCM nomina l'area (es. "AdS Valtrompia Nord") ed è entro 350 m, oppure se non la nomina ma è entro 120 m dal centro dell'area. Il raggio stretto evita di includere parcheggi o centri commerciali vicini all'autostrada. Le due carreggiate distano spesso meno di 200 m, quindi il nome prevale sulla pura vicinanza.
 
 La chiave OCM resta sul server: il browser chiama solo `/api/stations`.
 
